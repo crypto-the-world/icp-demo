@@ -1,0 +1,35 @@
+{
+  "canisters": {
+    "daosite": {
+      "main": "src/daosite/main.mo",
+      "type": "motoko"
+    },
+    "daosite_assets": {
+      "dependencies": [
+        "daosite"
+      ],
+      "frontend": {
+        "entrypoint": "src/daosite_assets/src/index.html"
+      },
+      "source": [
+        "src/daosite_assets/assets",
+        "dist/daosite_assets/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.8.4",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}
