@@ -15,4 +15,9 @@ actor {
      public func abc(x: Nat): async Nat {
          a(x)
      };
+
+
+     public func qsort(arr: [Int]): async [Int] {
+
+     }
 }
