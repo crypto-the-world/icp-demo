@@ -1,2 +1,2 @@
-# icp-demo
-icp demo
+# icp-demo [WIP]
+icp demo project
